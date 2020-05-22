@@ -1,0 +1,34 @@
+============================= test session starts ==============================
+platform linux -- Python 3.6.9, pytest-4.6.2, py-1.8.0, pluggy-0.12.0 -- /home/fabio/codenation/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /home/fabio/codenation/data-science-4
+collecting ... collected 7 items
+
+test_submit.py::test_q1 PASSED                                           [ 14%]
+test_submit.py::test_q2 PASSED                                           [ 28%]
+test_submit.py::test_q3 PASSED                                           [ 42%]
+test_submit.py::test_q4 PASSED                                           [ 57%]
+test_submit.py::test_q5 PASSED                                           [ 71%]
+test_submit.py::test_q6 PASSED                                           [ 85%]
+test_submit.py::test_q7 PASSED                                           [100%]
+
+=============================== warnings summary ===============================
+/home/fabio/codenation/venv/lib/python3.6/site-packages/numpy/lib/histograms.py:824
+  /home/fabio/codenation/venv/lib/python3.6/site-packages/numpy/lib/histograms.py:824: RuntimeWarning: invalid value encountered in greater_equal
+    keep = (tmp_a >= first_edge)
+
+/home/fabio/codenation/venv/lib/python3.6/site-packages/numpy/lib/histograms.py:825
+  /home/fabio/codenation/venv/lib/python3.6/site-packages/numpy/lib/histograms.py:825: RuntimeWarning: invalid value encountered in less_equal
+    keep &= (tmp_a <= last_edge)
+
+main.py:277
+  /home/fabio/codenation/data-science-4/main.py:277: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+    plt.show()
+
+main.py:293
+  /home/fabio/codenation/data-science-4/main.py:293: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+    plt.show()
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+----- generated xml file: /home/fabio/codenation/data-science-4/output.xml -----
+==================== 7 passed, 4 warnings in 26.10 seconds =====================

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="pytest" skipped="0" tests="4" time="28.712"><testcase classname="test_submit" file="test_submit.py" line="3" name="test_q1" time="0.252"></testcase><testcase classname="test_submit" file="test_submit.py" line="8" name="test_q2" time="0.308"></testcase><testcase classname="test_submit" file="test_submit.py" line="13" name="test_q3" time="0.313"><system-out>[186.55588031  -6.59243177]
+</system-out></testcase><testcase classname="test_submit" file="test_submit.py" line="18" name="test_q4" time="2.291"><system-out>Model r2 score Linear regression: 0.922656746355961
+MSE 3.6646152383223933
+RMSE 1.9143184788123404
+                 coef
+Potential    0.526660
+Age          0.513425
+Reactions    0.153628
+BallControl  0.076370
+GKReflexes   0.051888
+
+Most important features RFE [&apos;Age&apos;, &apos;Potential&apos;, &apos;BallControl&apos;, &apos;Reactions&apos;, &apos;GKReflexes&apos;]
+
+Model r2 score RFE Linear regression selected features: 0.8975036168234906
+MSE 4.856400396474869
+RMSE 2.2037242106204826
+                 coef
+Age          0.643166
+Potential    0.625674
+Reactions    0.211510
+BallControl  0.094821
+GKReflexes   0.060664
+</system-out></testcase></testsuite>

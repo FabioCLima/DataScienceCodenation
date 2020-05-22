@@ -1,0 +1,21 @@
+============================= test session starts ==============================
+platform linux -- Python 3.6.9, pytest-4.6.2, py-1.8.0, pluggy-0.12.0 -- /home/fabio/codenation/data-science-3/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /home/fabio/codenation/data-science-3
+collecting ... collected 4 items
+
+test_submit.py::test_q1 PASSED                                           [ 25%]
+test_submit.py::test_q2 PASSED                                           [ 50%]
+test_submit.py::test_q3 PASSED                                           [ 75%]
+test_submit.py::test_q4 PASSED                                           [100%]
+
+=============================== warnings summary ===============================
+venv/lib/python3.6/site-packages/seaborn/matrix.py:268
+venv/lib/python3.6/site-packages/seaborn/matrix.py:268
+  /home/fabio/codenation/data-science-3/venv/lib/python3.6/site-packages/seaborn/matrix.py:268: PendingDeprecationWarning: 
+  The label function will be deprecated in a future version. Use Tick.label1 instead.
+    fontsize = tick.label.get_size()
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+----- generated xml file: /home/fabio/codenation/data-science-3/output.xml -----
+==================== 4 passed, 2 warnings in 28.69 seconds =====================
